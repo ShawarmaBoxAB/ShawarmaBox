@@ -28,7 +28,7 @@ class category {
 let shawarmaBox = new Product(
   "Shawarma Box",
   "/Media/images/products/shawarma-box.png",
-  119,
+  139,
   null,
   "En krämig och smakrik shawarma låda som består av en shawarma rulle uppskuren i bitar med pommes och 3 såser som ingår, Såserna är Mohammara,vitlökssås och Coleslaw. Det ingår även mixade pickles.",
   ["Bröd", "Kyckling Shawarma", "Salt gurka", "Vitlökssås"],
@@ -37,7 +37,7 @@ let shawarmaBox = new Product(
 let kycklingBox = new Product(
   "Kyckling Box",
   "/Media/images/products/Kyckling-tallrik.png",
-  129,
+  149,
   null,
   "En fantastisk och smakrik shawarma låda med pommes och 3 såser som ingår, Såserna är Mohammara,vitlökssås och Coleslaw. Det ingår även mixade pickles.",
   ["Kyckling Shawarma", "Salt gurka", "Vitlökssås"],
@@ -46,7 +46,7 @@ let kycklingBox = new Product(
 let kebabBox = new Product(
   "Kebab Box",
   "/Media/images/products/kebab-tallrik.png",
-  139,
+  159,
   null,
   "En krämig och smakrik kebab låda med pommes och 3 såser som ingår, Såserna är Mohammara,Kebabsås och Coleslaw",
   ["Kebab", "Tomat", "Gurka", "rödlök", "fefferoni", "Sallad", "Kebabsås"],
@@ -54,7 +54,7 @@ let kebabBox = new Product(
 )
 let grillMixBox = new Product("GrillMix Box",
   "/Media/images/products/grillmix-tallrik.png",
-  149,
+  169,
   null,
   "En låda med kolgrillad lamm och kyckling med pommes och 3 såser som ingår, Såserna är Hummus,Vitlökssås och Coleslaw. Det ingår även mixade pickles. Måltiden innehåller två spett som du kan välja, (lamm eller kyckling) eller en av varje till.",
   ["Kebab spett", "Tawooq spett", "Salt gurka", "Kebabsås"],
@@ -72,7 +72,7 @@ let falaffelBox = new Product(
 let korvBox = new Product(
   "Korv Box",
   "/Media/images/products/korv-tallrik.png",
-  49,
+  59,
   null,
   "En enkel och snabb korv låda med pommes. Du får 2 korvar med pommes, Du kan välja till senap och ketchup . Enkelt och snabbt :)",
   ["2x Korvar", "Senap", "Ketchup"],
@@ -82,7 +82,7 @@ let korvBox = new Product(
 let shawarmaRulle = new Product(
   "Shawarma rulle",
   "/Media/images/products/shawarma-rulle.png",
-  79,
+  89,
   null,
   "En krämig och smakrik shawarma rulle. Finns inte mer att säga, smaken säger allt.",
   ["Bröd", "Kyckling Shawarma", "Salt gurka", "Vitlökssås"],
@@ -92,7 +92,7 @@ let shawarmaRulle = new Product(
 let shishTawookRulle = new Product(
   "Shish tawook rulle",
   "/Media/images/products/kycklingspett.png",
-  79,
+  89,
   null,
   "En saftig kycklingrulle med grillad kyckling (tawook), pickles och vitlökssås.",
   ["Bröd", "Grillad kyckling", "Salt gurka", "Vitlökssås"],
@@ -102,7 +102,7 @@ let shishTawookRulle = new Product(
 let shishKebabRulle = new Product(
   "Shish kebab rulle",
   "/Media/images/products/lammspett.png",
-  89,
+  99,
   null,
   "Kolgrillad shish kebab i bröd med grönsaker och kebabsås.",
   ["Bröd", "Shish kebab", "Tomat", "Lök"],
@@ -122,7 +122,7 @@ let kebabRulle = new Product(
 let falafelRulle = new Product(
   "Falafel Rulle",
   "/Media/images/products/falffelrulle.png",
-  59,
+  79,
   null,
   "Vegetarisk falafelrulle med grönsaker och tahinisås.",
   ["Bröd", "Falafel", "Tomat","gurka", "Salt gurka", "Sallad", "Tahinisås"],
@@ -142,7 +142,7 @@ let pommesLada = new Product(
 let korvMedBrod = new Product(
   "Korv med bröd",
   "/Media/images/products/korv-med-brod.jpg",
-  15,
+  20,
   null,
   "En klassiker - grillad korv i bröd. Välj mellan eller ketchup och senap.",
   ["Bröd", "Korv", "Ketchup", "Senap"],
