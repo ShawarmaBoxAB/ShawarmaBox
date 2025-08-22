@@ -112,7 +112,7 @@ let shishKebabRulle = new Product(
 let kebabRulle = new Product(
   "Kebab Rulle",
   "/Media/images/products//kebabrulle.png",
-  89,
+  99,
   null,
   "En klassisk kebabrulle med kebabkött, färska grönsaker och sås.",
   ["Bröd", "Kebabkött", "Tomat", "Sallad", "Rödlök", "Kebabsås"],
