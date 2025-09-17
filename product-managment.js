@@ -30,8 +30,8 @@ let shawarmaBox = new Product(
   "/Media/images/products/shawarma-box.png",
   139,
   null,
-  "En krämig och smakrik shawarma låda som består av en shawarma rulle uppskuren i bitar med pommes och 3 såser som ingår, Såserna är Mohammara,vitlökssås och Coleslaw. Det ingår även mixade pickles.",
-  ["Bröd", "Kyckling Shawarma", "Salt gurka", "Vitlökssås"],
+  "En krämig och smakrik shawarmalåda som består av en shawarma rulle uppskuren i bitar med pommes. Till rätten ingår även vitlökssås, inlagda grönsaker och coleslaw.",
+  ["Bröd", "Kyckling Shawarma", "Saltgurka", "Vitlökssås"],
   category.KlassiskaMenyer
 )
 let kycklingBox = new Product(
@@ -39,8 +39,8 @@ let kycklingBox = new Product(
   "/Media/images/products/Kyckling-tallrik.png",
   149,
   null,
-  "En fantastisk och smakrik shawarma låda med pommes och 3 såser som ingår, Såserna är Mohammara,vitlökssås och Coleslaw. Det ingår även mixade pickles.",
-  ["Kyckling Shawarma", "Salt gurka", "Vitlökssås"],
+  "En fantastisk och smakrik shawarmalåda med pommes. Till rätten ingår även vitlökssås, inlagda grönsaker och coleslaw.",
+  ["Kyckling Shawarma", "Saltgurka", "Vitlökssås"],
   category.KlassiskaMenyer
 )
 let kebabBox = new Product(
@@ -48,16 +48,16 @@ let kebabBox = new Product(
   "/Media/images/products/kebab-tallrik.png",
   159,
   null,
-  "En krämig och smakrik kebab låda med pommes och 3 såser som ingår, Såserna är Mohammara,Kebabsås och Coleslaw",
-  ["Kebab", "Tomat", "Gurka", "rödlök", "fefferoni", "Sallad", "Kebabsås"],
+  "En krämig och smakrik kebablåda med pommes. Till rätten ingår även kebabsås, inlagda grönsaker och coleslaw.",
+  ["Kebab", "Tomat", "Gurka", "rödlök", "Fefferoni", "Sallad", "Kebabsås"],
   category.KlassiskaMenyer
 )
 let grillMixBox = new Product("GrillMix Box",
   "/Media/images/products/grillmix-tallrik.png",
   169,
   null,
-  "En låda med kolgrillad lamm och kyckling med pommes och 3 såser som ingår, Såserna är Hummus,Vitlökssås och Coleslaw. Det ingår även mixade pickles. Måltiden innehåller två spett som du kan välja, (lamm eller kyckling) eller en av varje till.",
-  ["Kebab spett", "Tawooq spett", "Salt gurka", "Kebabsås"],
+  "En låda med kolgrillad lamm och kyckling med pommes. Till rätten ingår även vitlökssås, inlagda grönsaker och coleslaw. Måltiden innehåller två spett som du kan välja, (lamm eller kyckling) eller en av varje.",
+  ["Kebab spett", "Tawooq spett", "Saltgurka", "Kebabsås"],
   category.KlassiskaMenyer
 )
 let falaffelBox = new Product(
@@ -65,8 +65,8 @@ let falaffelBox = new Product(
   "/Media/images/products/falaffel-tallrik.png",
   99,
   null,
-  "En god falaffel låda med pommes som ett vegetariskt alternativ, passar bra för dig som vill äta gott,miljövänligt och prisvärdigt.",
-  ["9x Falaffel bitar", "Tomat", "Gurka", "Salt gurka", "Sallad", "Tahini sås"],
+  "En god falaffellåda med pommes som ett vegetariskt alternativ. Passar bra för dig som vill äta gott, miljövänligt och prisvärt.",
+  ["9st Falaffel bitar", "Tomat", "Gurka", "Saltgurka", "Sallad", "Tahini sås"],
   category.KlassiskaMenyer
 )
 let korvBox = new Product(
@@ -74,8 +74,8 @@ let korvBox = new Product(
   "/Media/images/products/korv-tallrik.png",
   59,
   null,
-  "En enkel och snabb korv låda med pommes. Du får 2 korvar med pommes, Du kan välja till senap och ketchup . Enkelt och snabbt :)",
-  ["2x Korvar", "Senap", "Ketchup"],
+  "En enkel och snabb korvlåda med pommes. Du får 2 korvar med pommes, du kan välja till senap och ketchup . Enkelt och snabbt :)",
+  ["2st Korvar", "Senap", "Ketchup"],
   category.KlassiskaMenyer
 )
 
@@ -85,7 +85,7 @@ let shawarmaRulle = new Product(
   89,
   null,
   "En krämig och smakrik shawarma rulle. Finns inte mer att säga, smaken säger allt.",
-  ["Bröd", "Kyckling Shawarma", "Salt gurka", "Vitlökssås"],
+  ["Bröd", "Kyckling Shawarma", "Saltgurka", "Vitlökssås"],
   category.Mat
 );
 
@@ -94,8 +94,8 @@ let shishTawookRulle = new Product(
   "/Media/images/products/kycklingspett.png",
   89,
   null,
-  "En saftig kycklingrulle med grillad kyckling (tawook), pickles och vitlökssås.",
-  ["Bröd", "Grillad kyckling", "Salt gurka", "Vitlökssås"],
+  "En saftig kycklingrulle med grillad kyckling (tawook), saltgurka och vitlökssås.",
+  ["Bröd", "Grillad kyckling", "Saltgurka", "Vitlökssås"],
   category.Mat
 );
 
@@ -125,7 +125,7 @@ let falafelRulle = new Product(
   79,
   null,
   "Vegetarisk falafelrulle med grönsaker och tahinisås.",
-  ["Bröd", "Falafel", "Tomat","gurka", "Salt gurka", "Sallad", "Tahinisås"],
+  ["Bröd", "Falafel", "Tomat", "Gurka", "Saltgurka", "Sallad", "Tahinisås"],
   category.Mat
 );
 
@@ -169,6 +169,7 @@ let colaZero = new Product(
   ["Coca cola zero"]
   , category.Drycker
 )
+//används inte just nu
 let slush = new Product(
   "Slush",
   "/Media/images/products/slush.webp",
@@ -259,6 +260,24 @@ let MerJuiceApelsin = new Product(
   ["Mer Juice Apelsin"]
   , category.Drycker
 )
+let powerking = new Product(
+  "Powerking",
+  "/Media/images/products/powerking.webp",
+  20,
+  null,
+  "",
+  ["Powerking Energidryck"]
+  , category.Drycker
+)
+let redbull = new Product(
+  "Redbull",
+  "/Media/images/products/redbull.png",
+  25,
+  null,
+  "",
+  ["Redbull Energidryck 250ml"]
+  , category.Drycker
+)
 
 
 
@@ -281,7 +300,6 @@ let products = [shawarmaBox,
   pommesLada,
   cola,
   colaZero,
-  slush,
   fanta,
   Fantaexotic,
   spriteZero,
@@ -290,7 +308,9 @@ let products = [shawarmaBox,
   Ayran,
   MerJuiceJordgubb,
   MerJuiceParon,
-  MerJuiceApelsin]
+  MerJuiceApelsin,
+  redbull,
+  powerking]
 
 function DisplayAllProducts() {
   let productsHtmlString = ""
@@ -320,11 +340,11 @@ function DisplayProductById(productId) {
           <p>${products[productId].price}kr</p>
         </div>
         <div class="detail">
-          <h2>beskrivning</h2>
+          <h2>Beskrivning</h2>
           <p>${products[productId].description}</p>
         </div>
         <div class="detail">
-          <h2>Ingridienser</h2>
+          <h2>Ingredienser</h2>
           <ul class="ingridients-list">
             ${products[productId].ingridients
       .map(ingridient => `<li class="ingridient">${ingridient}</li>`)
