@@ -654,6 +654,10 @@ th {
 .kontakta-oss-wrapper {
   margin: 8rem;
 }
+.kontakta-oss-wrapper h1,
+.kontakta-oss-wrapper h2 {
+  padding: 10px;
+}
 
 .info-wrapper h1 {
   font-size: var(--font-size-lg);
